@@ -1,0 +1,105 @@
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: black;
+}
+
+.li
+{
+    
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    margin: 0;
+    color:black;
+    background-color: blanchedalmond
+}
+
+article
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blanchedalmond;
+    min-height: 50vh;
+}
+
+section
+{
+    display: flex;
+
+    
+}
+
+form
+{
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 50vw;
+    min-height: 30vh;
+    box-shadow: 6px 20px 10px whitesmoke;
+}
+
+.boton
+{
+    background-color:rgb(90, 211, 100);
+    color: white;
+    border-color: rgb(90, 211, 100);
+    font-weight: 300;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+footer
+{
+    color: blanchedalmond;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+body
+{
+    background-color: black;
+}
+
+.tooltip 
+{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext 
+{
+    visibility: hidden;
+    width: 120px;
+    background-color:#bebed0;
+    color:black;
+    text-align: center;
+    border-radius: 52% 48% 44% 56% / 47% 48% 52% 53% ;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext 
+{
+    visibility: visible;
+    
+}
+
+

@@ -1,0 +1,47 @@
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form
+{
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 50vw;
+    min-height: 30vh;
+    box-shadow: 6px 20px 10px whitesmoke;
+}
+
+.boton
+{
+    background-color:rgb(90, 211, 100);
+    color: white;
+    border-color: rgb(90, 211, 100);
+    font-weight: 300;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+footer
+{
+    color: blanchedalmond;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+body
+{
+    background-color: black;
+}
