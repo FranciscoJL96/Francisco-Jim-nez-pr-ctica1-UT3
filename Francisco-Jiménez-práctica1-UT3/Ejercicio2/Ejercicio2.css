@@ -23,7 +23,7 @@ nav
     color:black;
     background-color: blanchedalmond
 }
-
+/*Tienes que meter article y form en un contenedor y a ese contenedor aplicarle el flexBox*/
 article
 {
     display: flex;
